@@ -10,24 +10,21 @@ I learned how I made a frontend application with a maintainable and scalable str
 
 1. First install dependency project
 
-````bash
-    npm install
-   ```
-````
+```bash
+npm install
+```
 
 2. Second run the application using this command for development mode
 
-````bash
-    npm run dev
-   ```
-````
+```bash
+npm run dev
+```
 
 2. Second run the application using this command for development mode
 
-````bash
-    npm run dev
-   ```
-````
+```bash
+npm run dev
+```
 
 ## Running the tests
 
