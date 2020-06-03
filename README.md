@@ -2,6 +2,8 @@
 
 This is boilerplate next js with implementation typescript, bulma framework css, and redux toolkit for management state. And I made a folder structure that is best practice for the frontend project
 
+![License](https://img.shields.io/github/license/zahidin/next-ts-boilerplate?style=flat-square)
+
 ## Motivation
 
 I learned how I made a frontend application with a maintainable and scalable structure to simplify the development process
