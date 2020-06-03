@@ -1,0 +1,75 @@
+{
+  "name": "admin-perblog",
+  "version": "1.0.0",
+  "description": "Webpanel admin perblog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 1717",
+    "build": "next build",
+    "start": "next start",
+    "tslint": "tslint -p . -c tslint.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zahidin/admin-perblog.git"
+  },
+  "keywords": [
+    "perblog"
+  ],
+  "author": "zahidin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zahidin/admin-perblog/issues"
+  },
+  "homepage": "https://github.com/zahidin/admin-perblog#readme",
+  "dependencies": {
+    "bulma": "^0.8.2",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.3.6",
+    "@types/enzyme": "^3.10.5",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-jest": "^25.3.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "final-form": "^4.20.0",
+    "husky": "^4.2.5",
+    "jest": "^25.3.0",
+    "jest-watch-typeahead": "^0.5.0",
+    "lint-staged": "^10.1.3",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.4.0",
+    "node-sass": "^4.13.1",
+    "prettier": "^2.0.4",
+    "react-final-form": "^6.5.0",
+    "tslint": "^6.1.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-react-hooks": "^2.2.2",
+    "typescript": "^3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.+(ts|tsx)": [
+      "prettier --write",
+      "git add",
+      "jest --findRelatedTests",
+      "tslint"
+    ]
+  }
+}

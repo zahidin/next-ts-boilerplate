@@ -1,0 +1,27 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    "inline-react-svg",
+    "@babel/syntax-dynamic-import",
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@components": "./src/components",
+          "@app": "./src/app",
+          "@config/*": "./src/config",
+          "@assets": "./src/assets",
+          "@pages": "./src/pages",
+          "@api": "./src/api/index.ts",
+          "@layouts": "./src/layouts",
+          "@util": "./src/util",
+          "@styles": "./src/styles",
+          "@type": "./src/types/index.d.ts",
+          "@redux": "./src/redux"
+        }
+      }
+    ]
+  ],
+  "env": {}
+}

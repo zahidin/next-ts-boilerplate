@@ -1,0 +1,9 @@
+$font-size: 50px;
+
+.home .example {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size;
+}
