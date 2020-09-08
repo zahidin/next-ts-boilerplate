@@ -1,4 +1,4 @@
-# Next Js Boilerplate
+# Next TS Boilerplate
 
 This is boilerplate next js with implementation typescript, bulma framework css, and redux toolkit for management state. And I made a folder structure that is best practice for the frontend project
 
